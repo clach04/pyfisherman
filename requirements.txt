@@ -1,0 +1,2 @@
+pychromecast==7.3.0
+
