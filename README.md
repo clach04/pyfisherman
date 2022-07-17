@@ -4,6 +4,10 @@ pyfisherman casts media to a Chromecast device
 
 For the latest version see https://github.com/clach04/pyfisherman
 
+## Getting Started
+
+    python -m pip install -r requirements.txt
+
 ## Usage
 
     $ ./fisherman.py
