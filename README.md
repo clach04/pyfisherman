@@ -45,4 +45,6 @@ Alternatives?
 
 ## Notes
 
-This currently expects an older version of pychromecast https://github.com/home-assistant-libs/pychromecast/tags?after=7.7.1. This is becuase the older version does NOT require discovery to work (which might not work across subnets and containers), see https://github.com/home-assistant-libs/pychromecast/issues/611 (and https://github.com/home-assistant-libs/pychromecast/issues/442).
+
+
+This currently expects an [older version of pychromecast]([https://www.example.com](https://github.com/home-assistant-libs/pychromecast/tags?after=7.7.1). This is becuase the older version does NOT require discovery to work (which might not work across subnets and containers), see https://github.com/home-assistant-libs/pychromecast/issues/611 (and https://github.com/home-assistant-libs/pychromecast/issues/442).
