@@ -8,7 +8,7 @@ For the latest version see https://github.com/clach04/pyfisherman
 
 Why?
 
-To ay media from any webserver, optionally using only file names (not URLs) and using that existing server.
+To play media from any webserver, optionally using only file names (not URLs) and using that existing server.
 
 Alternatives?
 
