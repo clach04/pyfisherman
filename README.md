@@ -4,9 +4,11 @@ pyfisherman casts media to a Chromecast device
 
 For the latest version see https://github.com/clach04/pyfisherman
 
+
 ## Getting Started
 
     python -m pip install -r requirements.txt
+
 
 ## Usage
 
@@ -17,9 +19,17 @@ For the latest version see https://github.com/clach04/pyfisherman
     usage: fisherman.py [-h] [--ip IP] [--name NAME] [--auto_url_prefix AUTO_URL_PREFIX] [--file_prefix_remove FILE_PREFIX_REMOVE] urls [urls ...]
     fisherman.py: error: the following arguments are required: urls
 
-Where IP is an ip address and NAME is the Chromecast name.
+  * Each url (or filename, see AUTO_URL_PREFIX) will be queued to play.
+  * Where IP is an ip address and NAME is the Chromecast name.
+  * If AUTO_URL_PREFIX is specified that URL is prefixed to the arguments.
+  * If FILE_PREFIX_REMOVE is specified remove that from the start of the filename (see AUTO_URL_PREFIX)
+
 
 ## Questions no one asked that are plausible FAQs
+
+Does this stream files directly?
+
+No, it requires a web server. See Alternatives.
 
 Why?
 
