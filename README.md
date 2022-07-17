@@ -12,4 +12,7 @@ To ay media from any webserver, optionally using only file names (not URLs) and 
 
 Alternatives?
 
-https://github.com/dohliam/stream2chromecast
+  * https://github.com/skorokithakis/catt
+  * https://github.com/dohliam/stream2chromecast
+  * https://github.com/vishen/go-chromecast
+  * https://github.com/xat/castnow
