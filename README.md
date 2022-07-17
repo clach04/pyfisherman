@@ -27,6 +27,17 @@ For the latest version see https://github.com/clach04/pyfisherman
 
 ## Questions no one asked that are plausible FAQs
 
+What can this be used for?
+
+Playing arbitary URLs from the command line, or as a plugin to a media manager like [Beets](https://github.com/beetbox/beets) and [Supysonic](https://github.com/spl0k/supysonic) (using `jukebox_command`).
+
+Beets config extract:
+
+    play:
+        raw: yes
+        command: /path/to/pyfisherman/fisherman.py --ip XX.XX.XX.XX --auto_url_prefix http://YOUR_WEBSERVER/ --file_prefix_remove /path/to/music/folder
+
+
 Does this stream files directly?
 
 No, it requires a web server. See Alternatives.
